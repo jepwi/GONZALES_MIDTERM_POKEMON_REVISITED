@@ -1,5 +1,5 @@
-ANGELO CHRISTIAN D. STA ANA
-BSIT 32A2
+GONZALES PAUL JEFFREY
+BSIT 32A3
 --------------------------------------------------------------------------------------
 Pokémon App Comparison
 
