@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    color: #ffcc00;
+}
+
+.comparison-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.pokemon {
+    text-align: center;
+    background: #222;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+}
+
+input {
+    padding: 8px;
+    margin: 10px;
+    border-radius: 5px;
+    border: none;
+    background: #333;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #000;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ffaa00;
+}
+
+.compare-btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.compare-btn {
+    background-color: #ffaa00;
+    color: #000;
+}
+
+.compare-btn:hover {
+    background-color: #ffaa00;
+}
+
+.result {
+    margin-top: 15px;
+    padding: 10px;
+    background: #292929;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.1);
+}
+
+.clear-btn {
+    margin-top: 20px;
+    background-color: #ffaa00;
+    color: #000;
+}
+
+.clear-btn:hover {
+    background-color: #ffaa00;
+}
+
+.green-text {
+    color: #00ff00;
+    font-weight: bold;
+}
+
+.red-text {
+    color: #ff4444;
+    font-weight: bold;
+}

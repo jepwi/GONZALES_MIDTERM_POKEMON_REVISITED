@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokémon Comparison</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pokémon Comparison</h1>
+    <div class="comparison-box">
+      <div class="pokemon">
+        <input type="text" id="pokemon1" placeholder="Enter Pokémon Name">
+        <button onclick="fetchPokemon(1)">Search</button>
+        <div id="result1" class="result"></div>
+      </div>
+
+      <div class="compare-btn-container">
+        <button onclick="comparePokemon()" class="compare-btn">Compare</button>
+      </div>
+
+      <div class="pokemon">
+        <input type="text" id="pokemon2" placeholder="Enter Pokémon Name">
+        <button onclick="fetchPokemon(2)">Search</button>
+        <div id="result2" class="result"></div>
+      </div>
+    </div>
+
+    <!-- Clear button -->
+<button class="clear-btn" onclick="clearComparison()">Clear</button>
+
+
+<div class="notes"></div>
+
+    <div class="notes">
+      <h2>Comparison Notes:</h2>
+      <p><span class="green-text">Green</span> = Higher stat</p>
+      <p><span class="red-text">Red</span> = Lower stat</p>
+      <p>The Pokémon with more higher stats overall is the stronger one!</p>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
